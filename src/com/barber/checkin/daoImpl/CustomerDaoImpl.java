@@ -27,4 +27,10 @@ public class CustomerDaoImpl  implements CustomerDao{
 
 }
 
+	@Override
+	public void saveUserInfo(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

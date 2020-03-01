@@ -34,7 +34,7 @@ public class CustomerController extends HttpServlet {
 	customer.setStyle(request.getParameter("style"));
 	customer.setColoring(request.getParameter("coloring"));
 	
-	customerDao.saveCustomerInfo(customer);
+	customerDao.saveUserInfo(customer);
 		
 		RequestDispatcher rd = request.getRequestDispatcher("customerList.jsp");
 		request.setAttribute("customer", customer);
